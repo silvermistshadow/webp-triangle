@@ -1,5 +1,7 @@
 import { Triangle } from './triangle.js';
-
+import 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import $ from 'jquery';
 $(document).ready(function(){
   $("#triangle-form").submit(function(event){
     event.preventDefault();
