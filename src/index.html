@@ -4,6 +4,30 @@
     <title>Triangle tracker</title>
   </head>
   <body>
+    <div class="container">
+        <h1>Triangle Tracker</h1>
+        <p>Put in a number for each side and this site will determine what kind of triangle it is, or if it isn't a triangle.</p>
+        <hr>
+        <form id="triangle-form">
+          <div class="form-group">
+            <label for="side1">First side:</label>
+            <input id="side1" class="form-control" type="number">
+          </div>
+          <div class="form-group">
+            <label for="side2">Second side:</label>
+            <input id="side2" class="form-control" type="number">
+          </div>
+          <div class="form-group">
+           <label for="side3">Third side:</label>
+           <input id="side3" class="form-control" type="number">
+          </div>
+          <button type="submit">Calculate triangle type</button>
+        </form>
+
+        <div id="output">
+
+        </div>
+    </div>
 
   </body>
 </html>
