@@ -14,6 +14,7 @@ describe('Triangle', function() {
     console.log(triangle);
     expect(triangle.checkType()).toEqual("Not a triangle. The sum of the lengths of any two sides must be greater than the third side.");
   });
+  
   it('should correctly determine the type of triangle', function() {
     var equiTriangle = new Triangle(4,4,4);
     var isoTriangle = new Triangle(4,4,5);
