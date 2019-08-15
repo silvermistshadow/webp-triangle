@@ -1,3 +1,3 @@
-import { triangleModule } from './triangle'
+import { Triangle } from './triangle.js'
 
 
